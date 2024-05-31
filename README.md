@@ -24,10 +24,15 @@ The data is divided into training and testing sets.
 Important part: Training the Model - A Random Forest Regressor is initialized and trained on the training data. Predictions are made on the test data.
 Evaluating the Model
 - The performance of the model is evaluated using Mean Absolute Error (MAE), Mean Squared Error (MSE), Root Mean Squared Error (RMSE), and R-squared (R²) metrics. These metrics provide insight into the accuracy and reliability of the predictive model.
+  
 - Classification tree - It turns out to be too complicated tree.
   (With a maximum depth of 2 we already have quite a good classification accuracy (over 93%). For larger depths, Gini splits seem to be better than entropy splits).
   
+![Classification Tree](https://github.com/tercasaskova311/pictures/blob/main/tree.plot.png)
+
 - Extremely simple classifier: I noted that the last level of the tree (Classification tree) is not really separating anything (both labels in the split are equal). Then, I  further prune the tree.
+  
+![Classification Tree](https://github.com/tercasaskova311/pictures/blob/main/tree_plot_tree.png)
 
   -----
 ### Results:
