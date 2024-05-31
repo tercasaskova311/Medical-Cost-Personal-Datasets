@@ -1,5 +1,4 @@
-# Medical-Cost-Personal-Datasets
-
+# Predictive model to estimate medical charges
 This project aims to analyze the medical cost personal datasets to uncover insights and patterns.
 My final goal was to build a predictive model to estimate medical charges based on various features.
 
